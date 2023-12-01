@@ -11,17 +11,18 @@ class App extends Component {
     window.location.replace(this.props.props.new_url);
   }
 
-  // render() {
-  //   return (
-  //       <div >
-  //         <Head >
-  //           {this.props.props.parsedMetaTags.map((tag, index) => (
-  //               <meta key={index} {...tag} />
-  //           ))}
-  //         </Head>
-  //       </div>
-  //   )
-  // }
+  render() {
+    // return (
+    //     <div >
+    //       <Head >
+    //         {this.props.props.parsedMetaTags.map((tag, index) => (
+    //             <meta key={index} {...tag} />
+    //         ))}
+    //       </Head>
+    //     </div>
+    // )
+    return null;
+  }
 }
 export default App;
 
